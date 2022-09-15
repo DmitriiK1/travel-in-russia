@@ -1,0 +1,41 @@
+@import url(./_image/image.css);
+@import url(./_quote/quote.css);
+@import url(./_author/author.css);
+
+.container__comment{
+    display: flex;
+    flex-direction: column;
+    width: 382px;
+}
+
+@media (min-width: 1024px) and (max-width: 1279px){
+    .container__comment{
+        display: flex;
+        flex-direction: column;
+        width: 296px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+    .container__comment{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 767px){
+    .container__comment{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 374px){
+    .container__comment{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+    }
+}

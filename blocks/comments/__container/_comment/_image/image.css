@@ -1,0 +1,47 @@
+.container__image{
+    position: relative;
+    width: 97px;
+    top: 0px;
+    left: 0px;
+    border-radius: 50%;
+}
+
+@media (min-width: 1024px) and (max-width: 1279px){
+    .container__image{
+        position: relative;
+        width: 97px;
+        top: 0px;
+        left: 0px;
+        border-radius: 50%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+    .container__image{
+        position: relative;
+        width: 97px;
+        order: 1;        
+        margin: 0px auto;
+        border-radius: 50%;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 767px){
+    .container__image{
+        position: relative;
+        width: 97px;
+        order: 1;
+        margin: 0px auto;
+        border-radius: 50%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 374px){
+    .container__image{
+        position: relative;
+        width: 97px;
+        order: 1;
+        margin: 0px auto;
+        border-radius: 50%;
+    }
+}

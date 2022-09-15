@@ -1,0 +1,67 @@
+.comments__content-subtitle{
+    margin: 48px auto 0px;
+    max-width: 640px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 1.45;
+    text-align: center;
+}
+
+@media (min-width: 1024px) and (max-width: 1279px){
+    .comments__content-subtitle{
+        margin: 48px auto 0px;
+        max-width: 640px;
+    
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.5rem;
+        line-height: 1.45;
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+    .comments__content-subtitle{
+        margin: 24px auto 0px;
+        max-width: 640px;
+    
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.5rem;
+        line-height: 1.45;
+        text-align: center;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 767px){
+    .comments__content-subtitle{
+        margin: 48px auto 0px;
+        max-width: 100%;
+    
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1rem;
+        line-height: 1.43;
+        text-align: center;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 374px){
+    .comments__content-subtitle{
+        margin: 48px auto 0px;
+        max-width: 100%;
+    
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1rem;
+        line-height: 1.43;
+        text-align: center;
+    }
+}
