@@ -1,0 +1,69 @@
+.lead__title{
+    width: 782px;
+    height: 184px;
+    margin: 0px auto;  
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;   /*Hачертание шрифта, выше чем bold*/
+    font-size: 6rem; 
+    line-height: 1;
+    text-align: center;  
+    /*border: 1px solid red;*/
+}
+
+@media (min-width: 1024px) and (max-width: 1279px){
+    .lead__title{
+        max-width: 100%;
+        height: 184px;       
+        margin: 0px auto; 
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 6rem;
+        line-height: 1;
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+    .lead__title{
+        height: 184px;    
+        max-width: 93.75%;   
+        margin: 0px auto;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 6rem;
+        line-height: 1;
+        text-align: center;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 767px){
+    .lead__title{
+        max-width: 91.4%;
+        height: 96px;        
+        margin: 0px auto;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 2.5rem;
+        line-height: 1.1;
+        text-align: center;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 374px){
+    .lead__title{
+        max-width: 90%;
+        height: 96px;        
+        margin: 0px auto;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 2.5rem;
+        line-height: 1.1;
+        text-align: center;
+    }
+}

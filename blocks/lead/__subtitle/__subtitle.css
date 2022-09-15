@@ -1,0 +1,73 @@
+.lead__subtitle{
+    position: relative;
+    width: 585px;
+    margin: 48px 200px 0px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal; /*Жирность текста*/
+    font-size: 1.9rem; 
+    line-height: 1.2;
+    text-align: center;
+    /*border: 1px solid red;*/
+}
+
+@media (min-width: 1024px) and (max-width: 1279px){
+    .lead__subtitle{
+        position: relative;
+        max-width: 100%;
+        height: 80px;       
+        margin: 46px auto 0px; 
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 1.9rem;
+        line-height: 1.2;
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+    .lead__subtitle{
+        position: relative;
+        height: 65px;    
+        max-width: 93.75%;   
+        margin: 46px auto 0px; 
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 1.9rem;
+        line-height: 1.2;
+        text-align: center;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 767px){
+    .lead__subtitle{
+        position: relative;
+        max-width: 91.4%;
+        height: 48px;        
+        margin: 8px auto 0px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 1rem;
+        line-height: 1.2;
+        text-align: center;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 374px){
+    .lead__subtitle{
+        position: relative;
+        max-width: 90%;
+        height: 48px;        
+        margin: 8px auto 0px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 1rem;
+        line-height: 1.2;
+        text-align: center;
+    }
+}
