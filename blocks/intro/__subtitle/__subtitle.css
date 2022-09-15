@@ -1,0 +1,12 @@
+.intro__subtitle{
+    width: 683px;
+    height: 24px;
+    margin: 45px 301px 0px 0px;
+        
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px; /*размер шрифта*/
+    line-height: 36px;    /*межстрочный интервал*/
+    /*border: 1px solid red;*/
+}

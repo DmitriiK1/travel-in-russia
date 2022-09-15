@@ -1,0 +1,70 @@
+.intro__title{
+    width: 100%;
+    margin: 0px; 
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;   /*Hачертание шрифта, выше чем bold*/
+    font-size: 3.3rem; 
+    line-height: 1.1;
+    /*border: 1px solid red;*/
+}
+
+@media (min-width: 1280px) and (max-width: 1439px){
+    .intro__title{
+        max-width: 100%;
+        margin: 0px;   
+        font-family: Inter;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 3.3rem;
+        line-height: 1.1;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px){
+    .intro__title{
+        max-width: 100%;
+        margin: 0px;   
+        font-family: Inter;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 3.3rem;
+        line-height: 1.1;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+    .intro__title{
+        max-width: 100%;
+        margin: 0px;   
+        font-family: Inter;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 3.3rem;
+        line-height: 1.1;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 767px){
+    .intro__title{
+        max-width: 100%;
+        margin: 0px;   
+        font-family: Inter;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 2rem;
+        line-height: 1.1;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 374px){
+    .intro__title{
+        max-width: 100%;
+        margin: 0px;   
+        font-family: Inter;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 2rem;
+        line-height: 1.1;
+    }
+}

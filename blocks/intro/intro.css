@@ -1,0 +1,43 @@
+@import url(../intro/__title/__title.css);
+@import url(../intro/__subtitle/__subtitle.css);
+@import url(./__content-row/__content-row.css);
+@import url(../intro/__text/__text.css);
+
+.intro{
+    display: block;       
+    max-width: 985px;
+    margin: 106px auto 0px;
+     
+}
+
+@media (min-width: 1024px) and (max-width: 1279px){
+    .intro{
+        display: block;       
+        max-width: 90.6%;
+        margin: 106px auto 0px;   
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+    .intro{
+        display: block;       
+        max-width: 93.75% ;
+        margin: 106px auto 0px;   
+    }
+}
+
+@media (min-width: 375px) and (max-width: 767px){
+    .intro{
+        display: block;       
+        max-width: 91.4% ;
+        margin: 82px auto 0px;   
+    }
+}
+
+@media (min-width: 320px) and (max-width: 374px){
+    .intro{
+        display: block;       
+        max-width: 90% ;
+        margin: 82px auto 0px;   
+    }
+}
