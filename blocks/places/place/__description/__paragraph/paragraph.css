@@ -1,0 +1,97 @@
+.place__paragraph{
+    flex-basis: 484px;  /*базовый размер флекс элемента по основной оси*/
+    /*height: 138px;*/
+    margin: 36px 0px 0px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.1rem;
+    line-height: 1.6;
+
+    color: #FFFFFF;
+}
+
+.place__paragraph:first-child{
+    margin-top: 0px;
+}
+
+@media (min-width: 1024px) and (max-width: 1279px){
+    .place__paragraph{
+        flex-basis: 456px;  /*базовый размер флекс элемента по основной оси*/
+        /*height: 138px;*/
+        margin: 24px 0px 0px;
+    
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.1rem;
+        line-height: 1.6;
+    
+        color: #FFFFFF;
+    }
+    
+    .place__paragraph:first-child{
+        margin-top: 0px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+    .place__paragraph{
+        max-width: 484px;
+        flex-basis: 484px;  /*базовый размер флекс элемента по основной оси*/
+        margin: 24px 0px 0px;
+    
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.1rem;
+        line-height: 1.6;
+    
+        color: #FFFFFF;
+    }
+    
+    .place__paragraph:first-child{
+        margin-top: 0px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 767px){
+    .place__paragraph{
+        max-width: 343px;
+        flex-basis: 343px;  /*базовый размер флекс элемента по основной оси*/
+        margin: 24px auto 0px;
+    
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1rem;
+        line-height: 1.6;
+    
+        color: #FFFFFF;
+    }
+    
+    .place__paragraph:first-child{
+        margin-top: 0px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 374px){
+    .place__paragraph{
+        max-width: 288px;
+        flex-basis: 288px;  /*базовый размер флекс элемента по основной оси*/
+        margin: 24px auto 0px;
+    
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1rem;
+        line-height: 1.6;
+    
+        color: #FFFFFF;
+    }
+    
+    .place__paragraph:first-child{
+        margin-top: 0px;
+    }
+}

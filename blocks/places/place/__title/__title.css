@@ -1,0 +1,66 @@
+.place__title{
+    flex-basis: 460px;  /*базовый размер флекс элемента по основной оси*/
+    margin: 0px 40px 0px 0px; 
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;   /*Hачертание шрифта, выше чем bold*/
+    font-size: 4.5rem; 
+    line-height: 0.9;
+}
+
+@media (min-width: 1024px) and (max-width: 1279px){
+    .place__title{
+        max-width: 440px;
+        flex-basis: 440px;  /*базовый размер флекс элемента по основной оси*/
+        margin: 0px 32px 0px 0px; 
+    
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 900;   /*Hачертание шрифта, выше чем bold*/
+        font-size: 4.5rem; 
+        line-height: 0.9;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+    .place__title{
+        max-width: 340px;
+        flex-basis: 340px;  /*базовый размер флекс элемента по основной оси*/
+        margin: 0px 28px 0px 0px; 
+    
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 900;   /*Hачертание шрифта, выше чем bold*/
+        font-size: 2.6rem; 
+        line-height: 1.1;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 767px){
+    .place__title{
+        max-width: 343px;
+        flex-basis: 343px;  /*базовый размер флекс элемента по основной оси*/
+        margin: 0px auto; 
+    
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 900;   /*Hачертание шрифта, выше чем bold*/
+        font-size: 2rem; 
+        line-height: 1.1;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 374px){
+    .place__title{
+        max-width: 288px;
+        flex-basis: 288px;  /*базовый размер флекс элемента по основной оси*/
+        margin: 0px auto; 
+    
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 900;   /*Hачертание шрифта, выше чем bold*/
+        font-size: 2rem; 
+        line-height: 1.1;
+    }
+}
