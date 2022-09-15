@@ -1,0 +1,11 @@
+.barentsburg__text{
+    width: 380px;
+    margin: 0px 212px 0px 0px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 29px; /*(межстрочный интервал*/
+    color: #FFFFFF;
+}

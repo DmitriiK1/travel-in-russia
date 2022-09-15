@@ -1,0 +1,18 @@
+.barentsburg__website_link{
+    width: 282px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+
+    background-color: #2f2c2f;
+    transition: opacity 0.3s ease-in;
+}
+
+.barentsburg__website_link:hover{
+    opacity: 0.5;
+}

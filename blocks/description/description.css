@@ -1,0 +1,7 @@
+@import url(./__text/text.css);
+@import url(./__website/website.css);
+
+.barentsburg__description{
+    display: flex;
+    margin-top: 48px;
+}
