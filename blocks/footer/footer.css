@@ -1,0 +1,51 @@
+@import url(./__link/link.css);
+@import url(./__copyright/copyright.css);
+
+.footer{
+    display: flex;    
+    margin: 110px auto 0px;
+    max-width: 1184px;
+    text-decoration: none;
+}
+
+.footer:last-child{
+    flex-grow: 2;
+}
+
+@media (min-width: 1024px) and (max-width: 1279px){
+    .footer{
+        display: flex;
+        margin: 110px auto 0px;
+        max-width: 90.7%;
+        text-decoration: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+    .footer{
+        display: flex;
+        margin: 100px auto 0px;
+        max-width: 94%;
+        text-decoration: none;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 767px){
+    .footer{
+        display: flex;
+        flex-direction: column;
+        margin: 64px auto 0px;
+        max-width: 91.4%;
+        text-decoration: none;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 374px){
+    .footer{
+        display: flex;
+        flex-direction: column;
+        margin: 64px auto 0px;
+        max-width: 90%;
+        text-decoration: none;
+    }
+}
