@@ -2,7 +2,7 @@
 
 ## Учебный проект о путешествиях по стране
 
-![ScreenShot](/image/screenshot.png)
+![ScreenShot](./image/screenshot.png)
 
 * Блок с фотографиями сделан при помощи Grid.
 * Стили прописаны на SCSS;
