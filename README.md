@@ -1,8 +1,7 @@
 # travel-in-russia
 
 ## Учебный проект о путешествиях по стране
-![ScreenShot](./image/screenshot.png "Optional title")
-
+![travel-in-russia](https://github.com/DmitriiK1/travel-in-russia/blob/main/images/screenshot.png  "Optional title")
 
 * Блок с фотографиями сделан при помощи Grid.
 * Стили прописаны на SCSS;
