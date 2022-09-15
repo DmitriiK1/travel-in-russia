@@ -1,0 +1,21 @@
+.header__lang{
+    color: #ffffff;
+    text-decoration: none;
+    height: 23px;
+    width: 30px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 23px;
+    text-align: right;
+
+    color: #FFFFFF;
+    transition: opacity 0.3s ease-in;
+}
+
+.header__lang:hover{
+    text-decoration: underline;
+    opacity: 0.5;
+}
