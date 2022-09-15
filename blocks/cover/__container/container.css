@@ -1,0 +1,13 @@
+@import url(./__title/title.css);
+@import url(./__subtitle/subtitle.css);
+@import url(./__image/image.css);
+/*@import url(./__overlay/overlay.css);*/
+
+.cover__container{
+    display: block;
+    position: relative;
+}
+
+.cover__container:hover .cover__image{
+    opacity: 0.2;
+}

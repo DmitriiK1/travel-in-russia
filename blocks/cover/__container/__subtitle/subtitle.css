@@ -1,0 +1,97 @@
+.cover__subtitle{
+    position: absolute;
+    margin: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 48px;
+    width: 382px;
+    z-index: 100;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.1rem;
+    line-height: 1.44;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+@media (min-width: 1024px) and (max-width: 1279px){
+    .cover__subtitle{
+        position: absolute;
+        margin: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 48px;
+        width: 413px;
+        z-index: 100;
+    
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.1rem;
+        line-height: 1.44;
+        text-align: center;
+        color: #FFFFFF;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+    .cover__subtitle{
+        position: absolute;
+        margin: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 40px;
+        width: 382px;
+        z-index: 100;
+    
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.1rem;
+        line-height: 1.44;
+        text-align: center;
+        color: #FFFFFF;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 767px){
+    .cover__subtitle{
+        position: absolute;
+        margin: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 24px;
+        width: 343px;
+        z-index: 100;
+    
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 0.87rem;
+        line-height: 1.2;
+        text-align: center;
+        color: #FFFFFF;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 374px){
+    .cover__subtitle{
+        position: absolute;
+        margin: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 24px;
+        width: 288px;
+        z-index: 100;
+    
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 0.6rem;
+        line-height: 1.4;
+        text-align: center;
+        color: #FFFFFF;
+    }
+}
