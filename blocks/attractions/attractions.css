@@ -1,0 +1,9 @@
+@import url(./__item/item.css);
+
+.attractions{
+    margin: 72px auto 0px;
+    width: 1184px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}

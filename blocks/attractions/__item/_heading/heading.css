@@ -1,0 +1,13 @@
+.attractions__heading{
+    position: absolute;
+    margin: 0px;
+    top: 30px;
+    left: 18px;
+    z-index: 1;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 27px;
+    line-height: 29px;
+}

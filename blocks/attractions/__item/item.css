@@ -1,0 +1,10 @@
+@import url(./_image/image.css);
+@import url(./_heading/heading.css);
+@import url(./_text/text.css);
+
+.attractions__item{
+    position: relative;
+    width: 284px;
+    height: 330px;
+    display: block;
+}
