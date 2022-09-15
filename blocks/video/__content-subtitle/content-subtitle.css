@@ -1,0 +1,67 @@
+.video__content-subtitle{
+    width: 640px;
+    margin: 48px auto 0px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 1.45;
+    text-align: center;
+}
+
+@media (min-width: 1024px) and (max-width: 1279px){
+    .video__content-subtitle{
+        width: 640px;
+        margin: 48px auto 0px;
+        
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.5rem;
+        line-height: 1.45;
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+    .video__content-subtitle{
+        width: 640px;
+        margin: 24px auto 0px;
+        
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.5rem;
+        line-height: 1.45;
+        text-align: center;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 767px){
+    .video__content-subtitle{
+        width: 100%;
+        margin: 16px auto 0px;
+        
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1rem;
+        line-height: 1.4;
+        text-align: center;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 374px){
+    .video__content-subtitle{
+        width: 100%;
+        margin: 16px auto 0px;
+        
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1rem;
+        line-height: 1.4;
+        text-align: center;
+    }
+}
