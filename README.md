@@ -11,4 +11,4 @@
   >>>>up to 425 pixels (mobile devices).
 * All links work and open in a new tab when clicked..
 
-[Ссылка на готовый проект, размещенный через github pages.](https://dmitriik1.github.io/travel-in-russia/)
+[Link to the finished project, hosted on github pages.](https://dmitriik1.github.io/travel-in-russia/)
